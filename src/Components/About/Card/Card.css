@@ -1,0 +1,58 @@
+.card-section{
+     height: 25vh;
+     width: 25vw;
+     /* border: 2px solid black; */
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2vw;
+   padding: 1vw;
+   transition: 0.5s;
+}
+.Cards{
+     width: 80vw;
+     margin: auto;
+     
+}
+.card-section:hover{
+      transform: translateY(-1.05rem);
+}
+.card-content{
+     height: 15vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 24vw;
+     gap: 1px;
+    
+}
+
+.card-img img{
+     width: 7vw;
+     height: 14vh;
+     /* object-fit: contain; */
+     border-radius: 60%;
+}
+.name {
+     font-size: 1.4rem;
+     font-weight: 400;
+}
+.donate-now{
+     font-weight: 300;
+     color: gray;
+}
+.amt{
+     margin-top: 10px;
+     font-size: 1.2rem;
+}
+.amt span{
+     color: green;
+     font-size: 1.4rem;
+}
+.link-food{
+     color: rgb(255, 98, 0);
+     text-decoration: none;
+}

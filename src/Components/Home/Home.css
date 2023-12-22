@@ -1,0 +1,26 @@
+.Home{
+
+     height: 100vh;
+     width: 100%;
+     /* background-color:  red; */
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     position: sticky;
+    
+}
+
+.Home::before{
+     content: "";
+     position: absolute;
+     background: url('https://img.freepik.com/photos-premium/bonne-fete-enfants-dans-style-art-papier-fond-blanc-modele-graphique-isole-fond-couleur-blanche-bonne-famille-joyeuse-belle-famille-bonne-fete-famille_155807-6893.jpg');
+     height: 90vh;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+      background-blend-mode: soft-light;
+      filter: grayscale(100%);
+      opacity: 1.33;
+      z-index: -1;
+}

@@ -1,0 +1,27 @@
+.founder-section{
+     display: flex;
+     width: 1200px;
+     margin: auto;
+     align-items: center;
+     justify-content: space-between;
+     gap: 5rem;
+     padding-block: 8rem;
+}
+
+.founder-section img{
+   width: 40vw;
+   height: 80vh;
+   object-fit: cover;
+    
+}
+.desc{
+     width: 35rem;
+     line-height: 1.8rem;
+     font-weight: 400;
+     font-size: 16px;
+}
+.desc h2{
+     font-size: 2rem;
+     line-height: 2.5rem;
+     font-weight: 500;
+}

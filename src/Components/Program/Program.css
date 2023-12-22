@@ -1,0 +1,41 @@
+.first {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 5vw;
+     flex-wrap: wrap;
+     /* flex-direction: column; */
+     
+   
+}
+.second {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* flex-direction: column; */
+     column-gap: 10vw;
+}
+.photo-container{
+     width: 90vw;
+     margin: auto;
+     /* margin-left: 12vw; */
+}
+
+.inputField {
+      background: transparent;
+      color: white;
+}
+.search-bar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* gap: 1vw; */
+}
+
+.search-bar input::placeholder {
+        color : white;
+}
+
+.donation-btn{
+      background-color: #dddd;
+}

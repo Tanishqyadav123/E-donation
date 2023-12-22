@@ -1,0 +1,30 @@
+.img img{
+     width: 7vw;
+     object-fit: cover;
+     height: 7vh;
+}
+.venue{
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     width: 14vw;
+     margin-right : 15vw; 
+     gap: 2vw;
+}
+.BlogComp{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2vw;
+}
+.Blog-dec{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     width: 25vw;
+}
+.Blog-dec span{
+     font-size: 1.1rem;
+     font-weight: 500 ;
+}

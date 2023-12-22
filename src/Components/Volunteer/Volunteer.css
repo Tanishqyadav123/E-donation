@@ -1,0 +1,108 @@
+/* .volunteer-section::before{
+     content: "";
+     position: absolute;
+     background-image: url("https://themewagon.github.io/welfare/images/bg_3.jpg");
+     background-repeat: no-repeat;
+     height: 100vh;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+      z-index: -1;
+} */
+
+
+.bg-img{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    z-index: 100;
+    background: #f86f2d;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.content{
+   margin-top: 10vh;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.content img{
+     width: 40vw;
+     height: 60vh;
+     object-fit: cover;
+     border-radius: 8px;
+}
+.volunteer-form{
+    font-family: "Poppins" , sans-serif;
+     width: 40%;
+     height: 60vh;
+     /* background-color: black; */
+}
+.volunteer-section{
+     margin-block: 4vh;
+}
+
+.volunteer-form h2{
+
+     font-size: 1.8rem;
+     text-align: center;
+     font-weight: 500;
+}
+.input-tags{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 3vh;
+     
+}
+
+input {
+     height:7vh ;
+     width: 34vw;
+     border: 2px solid #555;
+     font-size: 18px;
+     padding-inline: 2vw;
+
+}
+
+input::placeholder{
+    font-size: 1.04rem;
+}
+textarea::placeholder{
+    font-size: 1.04rem;
+}
+
+textarea{
+    height:34vh ;
+    width: 36vw;
+    border: 2px solid #555;
+    font-size: 18px;
+    padding-inline: 2vw;
+     
+}
+
+.volunteer-btn{
+    text-align: center;
+     padding: 10px;
+    margin-block: 1vh;
+    font-weight: bolder;
+    font-size: 16px;
+    transition: 0.6s;
+    background-color: black;
+    color: white;
+
+}
+.volunteer-btn:hover{
+     background-color: #f86f2d;
+     color: white;
+     border: #f86f2d;
+     cursor: pointer;
+     padding: 10px;
+}

@@ -1,0 +1,28 @@
+.donationtake{
+     margin-top: 10rem;
+     width: 80vw ;
+     margin: 10rem auto;
+
+}
+.firstrow{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3vw;
+     margin-block: 3vh;
+}
+
+.secondrow{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3vw;
+     margin-block: 3vh;
+}
+.thirdrow{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3vw;
+     margin-block: 3vh;
+}

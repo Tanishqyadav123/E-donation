@@ -1,0 +1,78 @@
+.about-text{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.footer{
+    height: 80vh;
+    width: 100vw;
+    margin: auto;
+    margin-top: 8rem;
+    background-color: #1d2023;
+    color: white;
+}
+/* .Footer-Section{
+    
+} */
+.Footer-Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+    padding: 2vw 3vw;
+
+
+}
+
+.Footer-Section>div{
+    width: 22vw;
+    height: 50vh;
+    padding-top: 10vh;
+    padding-inline: 3vw;
+    margin: auto;
+}
+
+.blogs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.Footer-Section h2{
+     font-weight: 400;
+     border-bottom: 2px solid white;
+     margin-bottom: 8vh;
+     width: max-content;
+}
+
+.Site-Links .links{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 3.2vh;
+}
+.Site-Links .links  span  {
+    color: white;
+    cursor: pointer;
+   
+}
+.Site-Links{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.details{
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+     gap: 6vh;
+}
+.Site-Links{
+     margin-top: 18vh;
+}
